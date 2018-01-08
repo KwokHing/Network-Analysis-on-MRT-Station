@@ -18,9 +18,10 @@ library(rvest)
 
 Before we can scrape the MRT stations data, we would need to ascertain the correct [XPath](https://www.w3schools.com/xml/xpath_intro.asp) to use.
 
-1. navigate to the [wikipedia page](https://en.wikipedia.org/wiki/List_of_Singapore_MRT_stations) and fire up the developer tool (F12 for windows or right-click &gt; Inspect) 
-![png](images/xpath.jpg)
+1. navigate to the [wikipedia page](https://en.wikipedia.org/wiki/List_of_Singapore_MRT_stations) and fire up the developer tool (*F12 for windows or right-click &gt; Inspect*) 
 2. copy the table XPath
+
+![png](images/xpath.jpg)
 
 Now we are ready to do some real and dirty work, scraping and cleaning the data!
 
@@ -313,6 +314,9 @@ write.csv(mrt_nodes, file="mrt_nodes.csv", row.names=F)
 ```
 
 ### Visualisation of the MRT network using Gephi
+
+![png](images/GephiDegree.jpg)
+
 
 ### Visualisation of the MRT network using R igraph package
 
