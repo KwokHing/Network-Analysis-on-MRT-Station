@@ -19,6 +19,7 @@ library(rvest)
 Before we can scrape the MRT stations data, we would need to ascertain the correct [XPath](https://www.w3schools.com/xml/xpath_intro.asp) to use.
 
 1. navigate to the [wikipedia page](https://en.wikipedia.org/wiki/List_of_Singapore_MRT_stations) and fire up the developer tool (F12 for windows or right-click &gt; Inspect) 
+![png](images/xpath.jpg)
 2. copy the table XPath
 
 Now we are ready to do some real and dirty work, scraping and cleaning the data!
