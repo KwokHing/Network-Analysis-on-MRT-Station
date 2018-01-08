@@ -780,6 +780,8 @@ plot(simple_g, layout=glay, edge.color=E(simple_g)$color, edge.width=3, edge.cur
      vertex.size=V(simple_g)$degree*3.5) 
 ```
 
+![png](images/Degree.jpg)
+
 
 ```R
 V(simple_g)$name[degree(simple_g)==max(degree(simple_g))]
@@ -797,6 +799,8 @@ plot(simple_g, layout=glay, edge.color=E(simple_g)$color, edge.width=3, edge.cur
      vertex.label.font=.7, vertex.label=V(simple_g)$label, vertex.label.color="grey40",
      vertex.size=V(simple_g)$closeness*90) 
 ```
+
+![png](images/Closeness.jpg)
 
 
 ```R
@@ -816,6 +820,8 @@ plot(simple_g, layout=glay, edge.color=E(simple_g)$color, edge.width=3, edge.cur
      vertex.size=V(simple_g)$betweenness*60) 
 ```
 
+![png](images/Betweenness.jpg)
+
 
 ```R
 V(simple_g)$name[betweenness(simple_g)==max(betweenness(simple_g))]
@@ -833,6 +839,8 @@ plot(simple_g, layout=glay, edge.color=E(simple_g)$color, edge.width=3, edge.cur
      vertex.label.font=1, vertex.label=V(simple_g)$label, vertex.label.color="grey40",
      vertex.size=V(simple_g)$eigen*20)
 ```
+
+![png](images/Eigenvector.jpg)
 
 
 ```R
