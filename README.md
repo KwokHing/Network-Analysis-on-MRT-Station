@@ -3,7 +3,7 @@
 
 This demo will provide 
 
-- a breif introduction to web scraping using Rvest package
+- a brief introduction to web scraping using Rvest package
 - a brief introduction to the concept of graph and network analysis using R igraph package
 - a brief introduction on the metrics used to perform network analysis (such as degree, betweeness, closeness and eigenvector centrality)
 - investigation into which MRT station is an important node in the Singapore MRT network
