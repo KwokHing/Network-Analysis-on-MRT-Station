@@ -8,6 +8,8 @@ This demo will provide
 - a brief introduction on the metrics used to perform network analysis (such as degree, betweeness, closeness and eigenvector centrality)
 - investigation into which MRT station is an important node in the Singapore MRT network
 
+
+
 Installing the rvest package to scrape the list of MRT stations from wikipedia
 
 
@@ -1160,3 +1162,6 @@ attr
 </table>
 
 
+### Summary ###
+
+From the results obtained from the different centrality measures applied to the MRT network, we could often see that the station 'Dhoby Ghaut' frequently appears as one of the significant nodes suggesting that it could likely be the most important node in the MRT network. The consequences of removing such a node might breaks the network into different smaller networks and reduce connectivity among the network, seriously impairing the connectivity and coverage of the MRT services.
