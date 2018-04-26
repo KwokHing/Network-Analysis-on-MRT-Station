@@ -1,6 +1,13 @@
 
 ## Introduction to basic Network Analysis using railway (Singapore MRT) stations ##
 
+This demo will provide 
+
+- a breif introduction to web scraping using Rvest package
+- a brief introduction to the concept of graph and network analysis using R igraph package
+- a brief introduction on the metrics used to perform network analysis (such as degree, betweeness, closeness and eigenvector centrality)
+- investigation into which MRT station is an important node in the Singapore MRT network
+
 Installing the rvest package to scrape the list of MRT stations from wikipedia
 
 
